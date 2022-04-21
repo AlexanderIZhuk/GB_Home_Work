@@ -1,7 +1,9 @@
 duration = int(input('Введите число '))
+
 one_min = 60
 one_hour = one_min * 60
 one_day = one_hour * 24
+
 if duration < one_min:
     print(duration, "сек")
 elif duration > one_min and duration < one_hour:
